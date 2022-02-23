@@ -1,0 +1,57 @@
+/* start styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=VT323&display=swap');
+
+body {
+  margin: 0;
+  background: #444;
+  font-family: "Poppins";
+}
+li, ul {
+  list-style-type: none;
+  padding: 0;
+}
+main {
+  padding: 140px 40px 40px;
+  color: #bbb;
+}
+
+/* solution styles */
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  
+}
+
+.header #menuBtn {
+  transform: scale(1.2,1);
+  color: #bbb;
+  z-index: 1000;
+}
+.header .nav{
+  display: noe;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  height: 100vh;
+  width: 200px;
+  padding: 100px 25px;
+}
+/* open state */
+
+
+
+/* transitions */
